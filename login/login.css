@@ -11,6 +11,7 @@
     height: 4vh;
     margin-top: 2vh;
     margin-left: 2vw;
+    /* padding: 4%; */
 }
 
 .form{
@@ -20,10 +21,10 @@
     /* align-items: center; */
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    margin: 3vh;
+    margin-top: -2vh;
 }
 .form .left > img{
-    width: 50vw;
+    width: 55vw;
     margin-left: -10vw;
     margin-top: -15vh;
     margin-right: 5vw;
