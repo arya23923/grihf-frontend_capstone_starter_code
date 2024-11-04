@@ -7,15 +7,42 @@
     <title>Sign up</title>
 </head>
 <body>
-    <div class="left">
-        <img src="../images/sign.jpg">
+    <div class="back">
+        <a href="#">
+            <img src="../images/back.png">
+        </a>
     </div>
-    <div class="right">
-        <div class="heading">Sign up</div>
-        <div class="subheading">
-            <div class="member">Already a member?</div>
-            <a href="#">Login</a>
+    <div class="form">
+        <div class="left">
+            <img src="../images/sign.jpg">
+        </div>
+        <div class="right">
+            <div class="heading">Sign up</div>
+            <div class="subheading">
+                <span class="member">Already a member?</span>
+                <a href="#">Login</a>
+            </div>
+            <form>
+                <label for="Role">Role</label></br>
+                <select name="role" id="role" required>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Patient">Patient</option>
+                </select></br>
+                <label for="name">Name</label></br>
+                <input type="text" placeholder="Enter a name" required></br>
+                <label for="Phone">Phone</label></br>
+                <input type="number" placeholder="Enter a phone number" required></br>
+                <label for="email">Email</label></br>
+                <input type="email" placeholder="Enter an email id" required></br>
+                <label for="Password">Password</label></br>
+                <input type="password" placeholder="Enter a password" required></br>
+                <span class="button">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Reset</button>
+                </span>
+            </form>    
         </div>
     </div>
+    
 </body>
 </html>
