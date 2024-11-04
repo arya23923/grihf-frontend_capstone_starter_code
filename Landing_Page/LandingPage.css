@@ -5,7 +5,7 @@
 }
 .hero-section {
     height: 100vh;
-    padding-top: 15rem;
+    padding-top: 7rem;
     background-color: transparent;
     z-index: -1;
 }
@@ -29,8 +29,9 @@
     font-size: 22px;
     font-weight: 300;
     text-align: center;
-    padding: 12px 14rem;
+    padding: 15px 14rem;
     color:#969BA5;
+    /* padding: 4%; */
 }
 
 .hero-section .button {
